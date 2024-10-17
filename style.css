@@ -1,0 +1,353 @@
+.parle-logo
+{
+  height:26px;
+}
+.navbar
+{
+     text-align: center;
+     padding: 15px;
+}
+.navbar-toggler-icon
+{
+    border: none;
+}
+.navbar-toggler
+{
+    border: none;
+    color: white;
+}
+.goright
+{
+    margin-left: 350px;
+}
+.nav-link
+{
+  width: 120px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  transition: 1s;
+}
+.nav-link:hover
+{
+    color:  rgb(229, 63, 39);;
+}
+.frooti1
+{
+  width: 100%;
+  margin-top: 70px;
+}
+row
+{
+    height: 1184;
+}
+.h{
+
+height: 1146px;
+}
+.h1{
+    background: rgb(240, 145, 48);
+    margin: 0;
+  padding: 0;
+}
+.h2
+{
+   background-color: rgb(255, 253, 250);
+
+   margin: 0;
+  padding: 0;
+}
+.firstpara
+{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    width: 500px;
+}
+.leaf
+{
+    height: 529px;
+    width: 190px;
+    margin-left: 260px;
+    margin-top: 250px;
+    transition: transform 0.3s ease; /* Smooth rotation */
+    z-index: -1;
+    
+    
+}
+
+.frootytext
+{
+    margin-top: -350px;
+    color: white;
+    
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    font-family: "EksellDisplayWeb-Small";
+    z-index: 10;
+    margin-left: 200px;
+    position: relative;
+    width: 400px;
+    
+}
+.logos
+{
+    margin-left: 100px;
+}
+
+
+.picadjust {
+   
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.frooty3 {
+    margin-top: -30px;
+    width: 100%; 
+    display: block; 
+    margin: 0; 
+}
+.dropdown .dropdown-menu {
+    margin-top: 15px;
+    background-color: rgb(229, 63, 39);
+    
+    border-bottom: 6px solid rgb(1, 1, 42);
+    border-radius: 0;
+}
+
+.dropdown-item
+{
+    color: white;
+    transition: 0.6s;
+    padding: 10px;
+    font-size: 17px;
+  
+}
+
+.dropdown-item:hover
+{
+    color: black;
+    background-color: rgb(229, 63, 39);
+}
+.parafooter
+{
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.lastfootertext
+{
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.lastfootertext:hover
+{
+    text-decoration: underline;
+    color: brown;
+}
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+    height: auto;
+}
+.pff
+{
+ margin-left: 60px;
+}@media(max-width:600px) {
+
+    .firstpara{
+        
+        
+      width:300px ;
+      font-size: 18px;
+        
+       margin-left: 40px;
+       
+    }
+    .h1,.h2{
+       margin-bottom: 140px;
+    }
+    .logos
+    {
+       margin-left: 40px;
+       
+       
+    }
+    .leaf
+    {
+       margin-left: 160px;
+       margin-bottom: -900px;
+       height: 150px;
+       
+
+    }
+    .frootytext
+    {
+       margin-left: 140px;
+       font-size: 34px;
+       width: 250px;
+       margin-top: 530px;
+    }
+    .goright
+    {
+       margin-left:-2px;
+   }
+    .pff
+    {
+       
+       display: inline;
+    }
+   
+}
+/*@media(max-width:700px) {
+    .goright
+    {
+        margin-left:330px;
+    }
+    .firstpara
+    {
+        width: 450px;
+        margin-top: -50px;
+    }
+    .frootytext
+    {
+        margin-left: 75px;
+    }
+   .parafooter
+    {
+        margin-top: 10px;
+    }
+    .frooty3
+    {
+        margin-top: 50px;
+    }
+   
+}*/
+
+@media (max-width:1450px) {
+    
+    .nav-link
+    {
+      font-size: 14px;
+      margin-left: 25px;
+      width: 103px;
+    }
+ 
+}
+@media (min-width:990px) and (max-width:1222px)
+{
+    .firstpara
+    {
+        width: 300px;
+        font-size: 20px;
+        
+    }
+    .leaf
+    {
+    margin-left: 100px;    
+    height: 100px;
+    margin-top: 300px;
+    }
+    .frootytext
+    {
+        margin-left: 130px;
+        font-size: 36px;
+        margin-top: -80px;
+        width: 250px;
+    }
+
+    
+}
+@media (max-width:400px) {
+    .leaf
+    {
+    margin-left: 80px;    
+    height: 60px;
+    margin-top: 170px;
+    }
+    .frootytext
+    {
+        margin-left: 50px;
+        font-size: 22px;
+        margin-top: 500px;
+        width: 230px;
+    }
+    .firstpara
+    {
+        font-size: 18px;
+        width: 250px;
+        
+    }
+    
+}
+@media (max-width:284px) {
+
+    .firstpara
+    {
+        font-size: 10px;
+        width: 80px;
+        
+    }
+    .frootytext
+    {
+        margin-left: 30px;
+        font-size: 16px;
+        
+        width: 80px;
+    } .leaf
+    {
+    margin-left: 20px;    
+    height: 30px;
+    width: 50px;
+    margin-top: 170px;
+    }
+    .lastfootertext
+    {
+      font-size: 12px;
+    }
+    .frooti1
+    {
+        margin-top: 105px;
+    }
+    
+}
+@media (min-width:241px)and (max-width:284px) {
+    .frooti1
+    {
+        margin-top: 70px;
+    }
+    
+}
+@media (max-width:209px) {
+     .parafooter
+     {
+        font-size: 4px;
+     }
+     .lastfootertext
+     {
+       font-size: 4px;
+     }
+     .frootytext
+     {
+         margin-left: 30px;
+         font-size: 12px;
+         
+         width: 60px;
+     } 
+     .firstpara
+     {
+         font-size: 6px;
+         width: 80px;
+         margin-left: 10px;
+         
+     }
+}
